@@ -1,0 +1,61 @@
+nav {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  padding: 15px 25px;
+  background: #172b4d;
+  color: white;
+}
+
+nav h1 {
+  margin: 0;
+  margin-right: auto;
+}
+
+button {
+  padding: 8px 15px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+main {
+  padding: 25px;
+}
+.task-form {
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+  margin-bottom: 25px;
+}
+
+input, textarea, select {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.kanban {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 15px;
+}
+
+.column {
+  background: #e2e5e9;
+  padding: 15px;
+  border-radius: 8px;
+  min-height: 300px;
+}
+
+.task-card {
+  background: white;
+  padding: 12px;
+  border-radius: 6px;
+  margin-bottom: 10px;
+  overflow-wrap: anywhere;
+}
+
+.task-card h4 {
+  margin-top: 0;
+}
